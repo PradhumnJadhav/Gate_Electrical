@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Playlist</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background: #f9fafc;
+      }
+      .playlist-container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 2rem;
+      }
+      .playlist-header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .playlist-header h1 {
+        font-weight: bold;
+        color: #222;
+      }
+      iframe {
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="playlist-container">
+      <div class="playlist-header">
+        <h1>📚 GATE Electrical YouTube Playlist</h1>
+        <p class="text-muted">
+          Learn concepts topic by topic with curated videos
+        </p>
+      </div>
+
+      <div class="ratio ratio-16x9">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/videoseries?si=nWJk6LyZslNYzE69&amp;list=PLs5_Rtf2P2r5YY5b23uDGrtpo42ezMmGp&rel=0&modestbranding=1"
+          title="YouTube video player"
+          frameborder="0"
+          rel="1"
+          listType="playlist"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+           referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

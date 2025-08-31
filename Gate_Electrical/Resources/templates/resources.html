@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container py-5">
+  <h1 class="mb-4 text-center fw-bold">📚 GATE Electrical Resources</h1>
+  <p class="text-center text-muted mb-5">Select a subject to explore topic-wise resources, notes, and videos.</p>
+
+  <div class="row g-4">
+
+    <!-- Electrical Machines -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card shadow-sm h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">⚡ Electrical Machines</h5>
+          <p class="card-text">Transformers, Induction Machines, and Synchronous Machines.</p>
+          <a href="/resources/machines/" class="btn btn-outline-primary">View Resources</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Power Systems -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card shadow-sm h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">🔋 Power Systems</h5>
+          <p class="card-text">Power generation, transmission, distribution, and protection.</p>
+          <a href="/resources/power-systems/" class="btn btn-outline-primary">View Resources</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Power Electronics -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card shadow-sm h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">⚙️ Power Electronics</h5>
+          <p class="card-text">Converters, inverters, rectifiers, and DC-DC choppers.</p>
+          <a href="/resources/power-electronics/" class="btn btn-outline-primary">View Resources</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Control Systems -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card shadow-sm h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">📡 Control Systems</h5>
+          <p class="card-text">Feedback, root locus, Bode plots, and state-space models.</p>
+          <a href="/resources/control-systems/" class="btn btn-outline-primary">View Resources</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signals & Networks -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card shadow-sm h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">🔌 Signals & Networks</h5>
+          <p class="card-text">Network theorems, Laplace transforms, Fourier analysis.</p>
+          <a href="/resources/signals-networks/" class="btn btn-outline-primary">View Resources</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Measurements -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card shadow-sm h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">📏 Measurements</h5>
+          <p class="card-text">Bridges, transducers, and electrical instrumentation.</p>
+          <a href="/resources/measurements/" class="btn btn-outline-primary">View Resources</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- EMFT -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card shadow-sm h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">🌐 EMFT</h5>
+          <p class="card-text">Maxwell’s equations, waveguides, and transmission lines.</p>
+          <a href="/resources/emft/" class="btn btn-outline-primary">View Resources</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

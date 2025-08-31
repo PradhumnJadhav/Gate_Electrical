@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="bg-primary text-white text-center py-5 mb-5">
+  <div class="container">
+    <h1 class="display-4 fw-bold">GATE Electrical Engineering Prep Hub</h1>
+    <p class="lead">Your one-stop platform for courses, PYQs, resources, and preparation strategies.</p>
+    <a href="/resourses" class="btn btn-light btn-lg mt-3">Start Learning</a>
+  </div>
+</div>
+
+<!-- Quick Links Section -->
+<div class="container mb-5">
+  <div class="row text-center">
+    <div class="col-md-3 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">📘 Courses</h5>
+          <p class="card-text">Structured subjects like Machines, Power Systems, and Control.</p>
+          <a href="/resourses" class="btn btn-primary btn-sm">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">📂 Resources</h5>
+          <p class="card-text">Download notes, formulas, and important PDFs for revision.</p>
+          <a href="/resources/" class="btn btn-primary btn-sm">View</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">🎥 Videos</h5>
+          <p class="card-text">Curated YouTube playlists and marathons for GATE EE topics.</p>
+          <a href="/videos/" class="btn btn-primary btn-sm">Watch</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">📝 Blog</h5>
+          <p class="card-text">Tips, strategies, and updates from toppers and mentors.</p>
+          <a href="/blog/" class="btn btn-primary btn-sm">Read</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Featured Courses Section -->
+<div class="bg-light py-5 mb-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Popular GATE EE Subjects</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">⚡ Electrical Machines</h5>
+            <p class="card-text">Concepts of DC machines, transformers, induction & synchronous machines.</p>
+            <a href="/courses/machines/" class="btn btn-outline-primary btn-sm">Learn</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">🔋 Power Systems</h5>
+            <p class="card-text">Generation, transmission, protection & stability analysis for GATE EE.</p>
+            <a href="/courses/power-systems/" class="btn btn-outline-primary btn-sm">Learn</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">📡 Control Systems</h5>
+            <p class="card-text">Feedback, root locus, Bode plots & state-space models explained.</p>
+            <a href="/courses/control-systems/" class="btn btn-outline-primary btn-sm">Learn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Call to Action -->
+<div class="text-center py-5">
+  <h3>🚀 Ready to crack GATE EE?</h3>
+  <p>Join our growing community of aspirants and boost your preparation.</p>
+  <a href="/accounts/register/" class="btn btn-success btn-lg">Join Now</a>
+</div>
+{% endblock %}
